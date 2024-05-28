@@ -1,0 +1,76 @@
+body {
+    font-family: 'Lora', serif; /* Using Lora for a soothing feel */
+    background-image: url('img/BG.png'); /* Replace 'background_image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+}
+
+.dar-text {
+    font-weight: bold; /* Make the font bold */
+    font-size: 24px; /* Adjust the font size */
+}
+
+.dar-text-sub {
+    font-size: 18px; /* Adjust the font size */
+    color: #999; /* Set color to a muted tone */
+}
+
+
+h1 {
+    text-align: center;
+    color: #333; /* Darker text color */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+button,
+select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #6c5ce7; /* Calming purple color */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4a43f7; /* Darker shade on hover */
+}
+
+p {
+    text-align: center;
+    color: #666; /* Softer text color */
+}
+
+a {
+    color: #6c5ce7; /* Matching color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
